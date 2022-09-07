@@ -10,7 +10,7 @@
         <?php
         $quantidade = $_POST['quantidade'];
         for ($i = 1; $i <= $quantidade; $i++) {
-            echo "<tr><td>Lnha 1</td></tr>";
+            echo "<tr><td>$i</td></tr>";
         }
         ?>
     </table>
